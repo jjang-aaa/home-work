@@ -1,0 +1,24 @@
+a {
+  text-decoration-line: none;
+}
+
+ .w3cBox, .cssBox {
+  background:rgb(191, 191, 191) url(./images/validation_icon\ 2.png) no-repeat 16px 17px;
+  background-position: 5% 50%;
+  border-radius: 35px;
+  width: 250px;
+  height: 37px;
+  margin-bottom: 10px;
+  line-height: 37px;
+}
+
+.pBox {
+ margin-left: 30px; 
+}
+
+.validation, .service {
+  display: inline;
+  color: black;
+  font-size: 14px;
+  line-height: 150%;
+}
