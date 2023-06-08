@@ -95,10 +95,20 @@ a {
 
 .sign-up {
   float: left;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .find-id-password {
   float: right;
-  margin-right: 15px;
+  margin-right: 10px;
+}
+
+.sing-up-icon{
+  float: left;
+  margin-left: 8px;
+}
+
+.find-icon {
+  float: left;
+  margin-left: 8px;
 }
