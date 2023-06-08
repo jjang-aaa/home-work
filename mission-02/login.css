@@ -1,0 +1,104 @@
+.login-box {
+  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  width: 244px;
+  height: 161px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 5px 5px 1px 1px rgba(170, 170, 170, 1);
+}
+
+h1 {
+  font-size: 15px;
+  color: rgba(255, 255, 0, 1);
+  margin: 0;
+  position: relative;
+  top: 15px;
+  bottom: 8px;
+  left: 12px;
+}
+
+.login-group {
+  background-color: white;
+  width: 220px;
+  height: 106px;
+  border-radius: 5px;
+  margin: 0;
+  position: relative;
+  top: 25px;
+  left: 12px;
+}
+
+legend {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height:0;
+  overflow:hidden;
+  display: none;
+  font-size: 0;
+  line-height: 0;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgba(204, 204, 204, 1);
+}
+
+.login-form {
+  position: relative;
+  top: 8px;
+  left: 5px;
+  bottom: 8px;
+}
+
+.id {
+  margin-left: 11px;
+}
+
+input {
+  width: 88px;
+  height: 22px;
+  padding: 0 0 0 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid rgba(204, 204, 204, 1);
+  margin-bottom: 5px;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(237, 85, 47, 1);
+  color: white;
+  font-size: 13px;
+  width: 50px;
+  height: 53px;
+  position: absolute;
+  left: 162px;
+  top: 8px;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.login-help {
+  margin-top: 15px;
+}
+
+.sign-up {
+  float: left;
+  margin-left: 20px;
+}
+
+.find-id-password {
+  float: right;
+  margin-right: 15px;
+}
