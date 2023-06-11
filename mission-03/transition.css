@@ -60,11 +60,7 @@ span {
 }
 
 /* 관련 사이트 */
-.zero-base,
-.mdn,
-.web-a11y,
-.web-standards,
-.w3c {
+a {
   text-decoration-line: none;
   color: black;
   font-size: 14px;
