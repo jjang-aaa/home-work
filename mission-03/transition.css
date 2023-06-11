@@ -7,12 +7,12 @@
   border-radius: 5px;
   margin: 50px 0 0 50px; /* 화면에 보기 편하게 하기 위해 작성 */
   padding: 0;
-  transition: padding 500ms linear;
+  transition: padding 400ms linear;
 }
 
 .site-box:hover {
   padding-bottom: 120px;
-  transition: padding 500ms linear;
+  transition: padding 400ms linear;
 }
 
 /* 관련 사이트 제목 */
@@ -37,12 +37,12 @@ span {
   margin: 0 12px 0 11px;
   overflow: hidden;
   padding: 0;
-  transition: padding 500ms linear;
+  transition: padding 400ms linear;
 }
 
 .site-list-box:hover {
   padding-bottom: 120px;
-  transition: padding 500ms linear;
+  transition: padding 400ms linear;
 }
 
 /* 관련 사이트 목록 */
@@ -50,13 +50,12 @@ span {
   list-style: none;
   margin: 5px 0 0 25px;
   padding: 0;
-  transition: padding-top 500ms 550ms ease-out;
-
+  transition: padding-top 400ms 450ms ease-out;
 }
 
 .site-list:hover {
   padding-top: 15px;
-  transition: padding-top 500ms 550ms ease-out;
+  transition: padding-top 400ms 450ms ease-out;
 }
 
 /* 관련 사이트 */
