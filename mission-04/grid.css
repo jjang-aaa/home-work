@@ -9,7 +9,7 @@ body {
   height: 200px;
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 /* 새소식 제목 */
@@ -79,9 +79,9 @@ a {
 .content-box {
   font-size: 14px;
   height: 142px;
-  margin-left: 16px;
+  margin-left: 20px;
   grid-row: 3 / 4;
-  grid-column: 5 / 11;
+  grid-column: 4 / 11;
 }
 
 .news-title {
