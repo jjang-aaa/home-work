@@ -1,0 +1,94 @@
+/* 화면에 잘 보이기 위해 사용 */
+body {
+  margin: 50px;
+}
+
+/* 새소식 컨테이너 */
+.news-container {
+  width: 380px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+}
+
+/* 새소식 제목 */
+.news {
+  font-size: 14px;
+  color: orangered;
+  margin: 0;
+  width: 37px;
+  height: 21px;
+  grid-row: 1 / 2;
+  grid-column: 1/ 2;
+}
+
+/* 더보기 */
+.more {
+  font-size: 14px;
+  width: 57px;
+  height: 21px;
+  margin: 0;
+  grid-row: 1 / 2;
+  grid-column: 10 / 11;
+}
+
+.more-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  margin-bottom: -3px;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+/* 분할선 */
+.division-line {
+  width: 266px;
+  height: 1px;
+  background: linear-gradient(to right,
+  rgba(169, 169, 169, 1), 
+  rgba(255, 255, 255, 1));
+  grid-row: 2 / 3;
+  grid-column: 1 / 10;
+}
+
+/* figure 부분 */
+.image-section {
+  width: 112px;
+  height: 103px;
+  margin: 0;
+  grid-row: 3 / 4;
+  grid-column: 1 / 5;
+}
+
+.w3c-renewal-img {
+  box-shadow: 0px 15px 15px 5px #AAAAAA;
+}
+
+.image-caption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* 내용부분 */
+.content-box {
+  font-size: 14px;
+  height: 142px;
+  margin-left: 16px;
+  grid-row: 3 / 4;
+  grid-column: 5 / 11;
+}
+
+.news-title {
+  margin: 0;
+}
+
+.news-date {
+  margin: 0;
+  margin-top: 4px;
+}
