@@ -1,0 +1,98 @@
+/* 화면에 보기 편하게 하기위해 */
+body {
+  margin: 100px;
+}
+
+/* 링크 전체 설정 */
+a{
+  text-decoration-line: none;
+  color: black;
+}
+
+/* 인기 사이트 컨테이너 */
+.popularSite__container {
+ width: 190px;
+ height: 147px;
+ background: linear-gradient(to bottom, rgba(204, 204, 204, 1),
+ rgba(238, 238, 238, 1));
+ border: 1px solid rgba(163, 163, 163, 1);
+ border-radius: 5px;
+ position: relative;
+}
+
+/* 인기 사이트 제목 */
+.popularSite {
+  font-size: 15px;
+  line-height: 22.5px;
+  margin: 12px 0 8px 12px;
+}
+
+.orangePoint {
+  color: orangered;
+}
+
+
+/* 인기 사이트 목록 */
+.popularSite__list {
+ list-style: none;
+ height: 92px;
+ padding: 0;
+ margin: 0 12px 12px 12px;
+}
+
+/* 인기 사이트 */
+.popularSite__item {
+  font-size: 11px;
+  margin-bottom: 8px;
+  counter-increment: number;
+  position: relative;
+}
+
+/* 인기 사이트 순번 */
+.popularSite__item::before {
+  content: counter(number);
+  color: white;
+  background-color: rgba(163, 163, 163, 1);
+  display: inline-block;
+  text-align: center;
+  padding-top: 2px;
+  width: 16px;
+  height: 14px;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+/* 인기 사이트 랭크 */
+.popularSite__item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background: url(./image/rank.png) no-repeat;
+  width: 12px;
+  height: 17px;
+}
+
+.w3c::after {
+  background-position: 0 3px;
+}
+
+.webStandard::after {
+  background-position: 0 -42px;
+}
+
+.cssZenGarden::after {
+  background-position: 0 -19px;
+}
+
+.mdn::after {
+  background-position: 0 3px;
+}
+
+/* 인기 사이트 더보기 */
+.popularSite__more {
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 12px;
+}
